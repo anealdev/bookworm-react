@@ -1,6 +1,7 @@
 // Router dispatcher, displays info based on route
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';  //provides browser specific components for routing web apps
+//Route is the conditionally shown component based on matching a path to a URL
 import HomePage from "./components/pages/HomePage";
 import LoginPage from "./components/pages/LoginPage";
 
