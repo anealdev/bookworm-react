@@ -5,9 +5,10 @@ import { connect } from 'react-redux';
 import {login} from "../../actions/auth";
 class LoginPage extends React.Component {
 
-submit = data => { this.props.login(data).then(() => this.props.history.push("/"));
+submit = data =>
+ this.props.login(data).then(() => this.props.history.push("/"));
 
-};
+
 
   render(){
     return(
